@@ -16,7 +16,7 @@ public class Student {
         contor++;
     }
 
-    public String toSting() {
+    public String toString() {
         return "Nume: " + nume + "\nPrenume: " + prenume + "\n";
 
     }
@@ -30,7 +30,7 @@ public class Student {
         array[4] = new Student("Ionescu", "Gigel");
 
         for (Student i : array) {
-            System.out.println(i.toSting());
+            System.out.println(i);
         }
         System.out.println(Student.contor);
     }

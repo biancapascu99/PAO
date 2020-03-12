@@ -19,8 +19,8 @@ public class Complex {
         return suma;
     }
 
-    public String toSting() {
-        return (" " + real + " + " + imag + "i");
+    public String toString() {
+        return (" " + this.real + " + " + this.imag + "i");
     }
 
     public boolean equals(Complex c) {

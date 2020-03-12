@@ -62,9 +62,9 @@ public class Main {
         Complex c2 = new Complex(2, 15);
         Complex c3 = new Complex();
         System.out.println("--------Problema 5--------");
-        System.out.println("c1= " + c1.toSting() + "\nc2= " + c2.toSting());
+        System.out.println("c1= " + c1 + "\nc2= " + c2);
         System.out.println("Sunt egale? " + c1.equals(c2));
-        System.out.println("Suma este: " + c1.sum(c2).toSting());
+        System.out.println("Suma este: " + c1.sum(c2));
 
     }
 
