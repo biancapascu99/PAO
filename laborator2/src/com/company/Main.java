@@ -69,11 +69,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-//        problema1();
-//        problema2();
-//        problema3();
-//        problema4();
-//        problema5();
+        problema1();
+        problema2();
+        problema3();
+        problema4();
+        problema5();
 
 
     }
