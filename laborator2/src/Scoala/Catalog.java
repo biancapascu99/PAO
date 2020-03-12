@@ -15,7 +15,7 @@ public class Catalog {
     }
 
     public String toString() {
-        return "Grupa: " + grupa + "\nStudentii: " + s1 + s2 + s3 + s4 + s4;
+        return "Grupa: " + grupa + "\nStudentii: " + s1 + s2 + s3 + s4 + s5;
     }
 
     public double getMedieClasa() {
